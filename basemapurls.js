@@ -1,0 +1,11 @@
+var stamenWaterURL = 'http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png';
+var stamenTonerUrl = 'http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png'; 
+var stamenTerrainURL ='http://{s}.tile.stamen.com/terrain-background/{z}/{x}/{y}.png'; 
+var openstreetUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var mapqueststreetUrl = 'http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png';
+var mapquestAerialUrl = 'http://otile{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png';
+var mapquestOpenStreet = 'http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png';
+var opencyclemaps = 'http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png';
+var skimap = 'http://tiles.openpistemap.org/nocontours/{z}/{x}/{y}.png';
+var transport = 'http://{s}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.png';
+var naipURL = 'http://{s}.mqcdn.com/naip/{z}/{x}/{y}.png';
