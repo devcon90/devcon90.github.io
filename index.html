@@ -34,6 +34,7 @@
 //	var mapstreet = new L.TileLayer(mapqueststreetUrl, {maxZoom: zoomax, subdomains:'1234'});
 //	var mapaerial = new L.TileLayer(mapquestAerialUrl, {maxZoom: zoomax, subdomains:'1234'});
     var mapOpen = new L.TileLayer(openstreetUrl, {maxZoom: zoomax, subdomains:'abc'});
+    var stamenTerra = new L.TileLayer(stamenTerrainURL, {maxZoom: zoomax, subdomains:'1234'});
 
 	var nexrad = L.tileLayer.wms(wmsurl, {
 	    layers: 'nexrad-n0r-900913',
@@ -45,7 +46,8 @@
 	var baseLayers = { 
 //		"Map Quest Street": mapstreet, 
 //		"Map Quest Aerial": mapaerial 
-        "Open Street Map": mapOpen
+        "Open Street Map": mapOpen,
+        "Stamen Terrain": stamenTerra
 	}; 
 
 	var overlays = {
@@ -57,6 +59,7 @@
 //	map.addLayer(mapstreet);
 //	map.addLayer(mapaerial);
     map.addLayer(mapOpen);
+    map.addLayer(stamenTerra);
 	map.addLayer(nexrad);
 
 	map.setView([39.50,-98.35],5); 	
